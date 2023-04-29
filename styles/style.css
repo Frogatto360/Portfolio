@@ -122,7 +122,6 @@ body {
     font-size: 1.5rem;
 }
 
-
 @media (max-width: 1200px) {
     .stylized-header{
         padding: 10%;
@@ -141,3 +140,22 @@ body {
         width: auto;
     }
 }
+
+@media (max-width: 400px){
+    .stylized-header__menu{
+        gap: 50px;
+    }
+
+    .profile-image{
+        width: 100%;
+    }
+
+    .apresentation__links__navigation{
+        width: 75%;
+    }
+
+    ul{
+        margin-left: 25px;
+    }
+}
+
